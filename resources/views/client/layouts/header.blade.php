@@ -1,3 +1,4 @@
+ 
  <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
@@ -9,12 +10,12 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Trang chủ</a></li>
+          <li><a href="home" class="active">Trang chủ</a></li>
            <li class="dropdown"><a href="#"><span>Giới thiệu</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
-              <li><a href="">Về chúng tôi</a></li>
-              <li><a href="#">Đối tác</a></li>
-              <li><a href="#">Khách hàng</a></li>
+              <li><a href="{{ route('about-me')}}">Về chúng tôi</a></li>
+              <li><a href="{{ route('about-partner')}}">Đối tác</a></li>
+              <li><a href="{{ route('about-client')}}">Khách hàng</a></li>
             </ul>
           </li>
           <li><a href="#services">Services</a></li>
