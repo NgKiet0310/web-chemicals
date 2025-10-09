@@ -12,6 +12,6 @@ Route::get('/home', function () {
     return view('home');
 });
 
-Route::get('/about-client', [AboutController::class, 'aboutClient'])->name('about-client');
-Route::get('/about-me', [AboutController::class, 'aboutMe'])->name('about-me');
-Route::get('/about-partner', [AboutController::class, 'aboutPartner'])->name('about-partner');
+Route::get('/khach-hang', [AboutController::class, 'aboutClient'])->name('about-client');
+Route::get('/gioi-thieu', [AboutController::class, 'aboutMe'])->name('about-me');
+Route::get('/doi-tac', [AboutController::class, 'aboutPartner'])->name('about-partner');
