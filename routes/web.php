@@ -8,7 +8,7 @@ Route::prefix('admin')->group(function () {
     Route::get('/', [AdminController::class, 'index'])->name('admin.dashboard');
 });
 
-Route::get('/home', function () {
+Route::get('/trang-chu', function () {
     return view('home');
 });
 

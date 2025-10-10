@@ -9,5 +9,6 @@
         <div class="container">
             <h1>Về khách hàng</h1>
         </div>
+        img
     </section>
 @endsection

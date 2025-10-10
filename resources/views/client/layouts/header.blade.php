@@ -9,7 +9,7 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="home" class="active">Trang chủ</a></li>
+          <li><a href="trang-chu" class="dropdown">Trang chủ</a></li>
            <li class="dropdown"><a href="#"><span>Giới thiệu</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
             <ul>
               <li><a href="{{ route('about-me')}}">Về chúng tôi</a></li>
